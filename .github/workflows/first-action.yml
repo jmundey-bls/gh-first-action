@@ -6,6 +6,10 @@ jobs:
      steps:
       - name: Print Greeting
         run: echo "Hello github actions"
+      - name: Multi Line
+        run: |
+          echo "first output"
+          echo "second output"
       - name: Print bye
         run: echo "Good bye gha"
         
